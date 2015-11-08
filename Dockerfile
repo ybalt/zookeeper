@@ -3,6 +3,7 @@
 #
 
 FROM java:8
+MAINTAINER ybaltouski@gmail.com
 
 ENV ZK_VERSION=zookeeper-3.4.6
 ENV ZK_TARBALL=${ZK_VERSION}.tar.gz
