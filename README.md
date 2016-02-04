@@ -8,7 +8,7 @@ Docker-compose file to run:
 Replace 'zero' to incremental number of machine(in this example 3 hosts)
 ```
 zookeeper:
-image: registry.colada.biz/zookeeper
+image: ybalt/zookeeper
 container_name: zoo0
 expose:
 "2181"
